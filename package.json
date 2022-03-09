@@ -1,0 +1,23 @@
+{
+  "name": "QIAN",
+  "version": "1.0.0",
+  "description": "QIAN stablecoin system",
+  "main": "truffle-config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "merge": "sol-merger \"./contracts/*.sol\" ./merged && sol-merger \"./contracts/lib/*.sol\" ./merged"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thefortube/QIAN.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@openzeppelin/contracts": "^3.1.0"
+  },
+  "devDependencies": {
+    "@openzeppelin/truffle-upgrades": "^1.2.1",
+    "sol-merger": "^3.1.0"
+  }
+}
